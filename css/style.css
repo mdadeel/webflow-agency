@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+  
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inter";
+    background-color: #f5f8ff;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    
+}
