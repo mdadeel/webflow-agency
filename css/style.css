@@ -56,6 +56,7 @@ header{
     border: 2px solid #8049fe;
     transition: 0.3s;
 }
+
  /* hero */
 .hero{
     display: flex;
@@ -74,4 +75,39 @@ header{
     font-family: 'raleway';
     color: #252432;
     margin-bottom: 34px;
+}
+
+/* action */
+.action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+     margin: 116px 159px 116px 141px;
+    padding: 0 16px;
+}
+.action-content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+   
+}
+.action-title{
+    font-size: 42px;
+    font-family: 'raleway';
+    font-weight: bold;
+    color: #252432;
+}
+.action-des {
+    font-size: 24px;
+    font-family: 'raleway';
+    color: rgba(37, 36, 50, 0.5);
+    width: 70%;
+}
+.action-img {
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
 }
