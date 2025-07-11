@@ -38,6 +38,7 @@ header{
     font-weight: 900;
     color: #4E47FF;
 }
+
 .btn-primary{
     background-color: #4E47FF;
     color: #FFFFFF;
@@ -55,7 +56,7 @@ header{
     box-shadow: 0px 0px 20px 0px #4d47ffe5;
     border: 2px solid #8049fe;
     transition: 0.3s;
-}
+ }
 
  /* hero */
 .hero{
@@ -76,7 +77,6 @@ header{
     color: #252432;
     margin-bottom: 34px;
 }
-
 /* action */
 .action{
     display: flex;
@@ -149,4 +149,205 @@ header{
     color: rgba(0, 0, 0, 0.5);
     justify-content: center;
     align-items: center;
+}
+/* rating */
+.ratings {
+    margin-top: 136px;
+     margin: 116px 159px 116px 141px;
+     align-items: center;
+}
+.rating-title{
+    font-size: 42px;
+    font-weight: bold;
+    font-family: 'raleway';
+    text-align: center;
+    margin-bottom: 50px;
+}
+.ratings-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.rating-card {
+    border: 1px solid #f2eded;
+    background-color: #ffffff7f;
+    border-radius: 14px;
+    padding: 24px;
+    width: 366px;
+    display: flex;
+    flex-direction: column; 
+    gap: 22px;
+    text-align: left;
+}
+.star{
+    display: flex;
+    margin-bottom: 24px;
+    
+}
+.ratigns-title{
+    font-family: 'inter';
+    font-weight: 600;
+     margin-bottom: -8px;
+}
+.ratigns-description{
+   
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: 'inter';
+    color: #1E1E1E;
+}
+.reviewer{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.reviewer-avatar {
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+}
+.reviewer-name{
+    font-size: 16px;
+    font-weight: bold;
+    color: #757575;
+    margin-bottom: 2px;
+}
+.reviewer-date {
+    font-size: 16px;
+    font-weight: 400;
+    color: #B3B3B3;
+}
+
+/* cta */
+
+.cta-section {
+    display: flex;
+    flex-direction: column; 
+    margin-top: 136px;
+     margin: 116px 159px 116px 141px;
+     padding: 71px 150px;
+     align-items: center;
+     background-color: #FFFFFF;
+     border-radius: 14px;
+     gap: 20px;
+}
+
+.cta-title {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'raleway';
+    margin-bottom: 20px;
+    color: #000000;
+}
+.cta-description {
+    font-size: 16px;
+    font-family: 'inter';
+    color: rgba(0, 0, 0, 0.5);
+}
+.cta-button {
+    font-size: 16px;
+    font-family: 'raleway';
+    font-weight: 500;
+}
+.cta-image {
+    width: 82%;
+    border-radius: 48px;
+}
+/* form */
+.contact-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 150px; margin-right: 150px;
+    margin-bottom: 71px;
+}
+.section-title {
+    font-size: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #000000;
+    width: 46%;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.form-label {
+    font-family: 'inter';
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+}
+.input-form , .textarea {
+    background-color: #FFFFFF;
+    border: 1px solid #d6ddec;
+    border-radius: 10px;
+    width: 497px,  497px; 
+    height: 70px, 135px;
+    padding: 20px 32px;
+    font-size: 20px;
+    font-family: 'inter';
+    color: rgba(0, 0, 0, 0.5);
+    gap: 10px;
+}
+
+/* footer */
+
+.footer {
+    background-color: #ffffff;
+    border-top: 1px solid #00000019;
+    padding: 98px 56px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer-content {
+    max-width: 40%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-logo {
+    font-size: 80px;
+    font-family: 'Inter';
+    font-weight: 900;
+    color: #4d47ff;
+    margin-bottom: 20px;
+}
+
+.footer-description {
+    font-size: 16px;
+    font-family: 'Inter';
+    font-weight: 400;
+    line-height: 1.5;
+    color: #8987a1;
+    margin-bottom: 20px;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 20px 64px 0;
+}
+
+.footer-link {
+    font-size: 16px;
+    font-family: 'Inter';
+    font-weight: 400;
+    color: #8987a1;
+    text-decoration: none;
+
 }
