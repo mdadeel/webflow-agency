@@ -6,13 +6,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    font-family: "Inter";
+body {
+    font-family: "Inter", sans-serif;
     background-color: #f5f8ff;
     font-optical-sizing: auto;
-    font-weight: 400px;
+    font-weight: 400; /* fixed */
     font-style: normal;
-    
 }
 /* header */
 .main-bg {
@@ -152,7 +151,7 @@ header{
 }
 /* rating */
 .ratings {
-    margin-top: 136px;
+   
      margin: 116px 159px 116px 141px;
      align-items: center;
 }
@@ -186,16 +185,15 @@ header{
     margin-bottom: 24px;
     
 }
-.ratigns-title{
-    font-family: 'inter';
+.ratings-title {
+    font-family: 'inter', sans-serif;
     font-weight: 600;
-     margin-bottom: -8px;
+    margin-bottom: -8px;
 }
-.ratigns-description{
-   
+.ratings-description {
     font-size: 16px;
     line-height: 1.6;
-    font-family: 'inter';
+    font-family: 'inter', sans-serif;
     color: #1E1E1E;
 }
 .reviewer{
@@ -287,15 +285,14 @@ header{
     font-weight: 500;
     color: #000000;
 }
-.input-form , .textarea {
+.input-form, .textarea {
     background-color: #FFFFFF;
     border: 1px solid #d6ddec;
     border-radius: 10px;
-    width: 497px,  497px; 
-    height: 70px, 135px;
+    width: 497px;
     padding: 20px 32px;
     font-size: 20px;
-    font-family: 'inter';
+    font-family: 'inter', sans-serif;
     color: rgba(0, 0, 0, 0.5);
     gap: 10px;
 }
